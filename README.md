@@ -1,0 +1,3 @@
+# Reinforcement-Learning-K-arm-bandit
+
+K-arm-bandit is a classic reinforcement learning problem wherein an agent is given k possible actions, each with its own reward probablity distribution. The agent is faced repeatedly with a choice among k different actions. After each choice the agent receives a numerical reward chosen from a stationary probability distribution that depends on the action selected. The objective is to maximize the expected total reward over some time period, for example, over 1000 action selections, or time steps. It is important to balance exploration-vs-exploitation or else the agent may get stuck performing some sub-optimal action.
